@@ -12,15 +12,16 @@ cask "nepali-patro" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Nepali Patro.app"
   binary "#{appdir}/Nepali Patro.app/Contents/MacOS/patro"
 
   # The app is ad-hoc signed (not notarized); clear the download quarantine so it opens normally.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Nepali Patro.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args:         ["-dr", "com.apple.quarantine", "{{appdir}}/Nepali Patro.app"],
+        must_succeed: false
   end
 
   uninstall quit: "com.officialbishal.nepali-patro"
