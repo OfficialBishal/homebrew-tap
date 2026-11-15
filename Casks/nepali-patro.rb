@@ -1,6 +1,6 @@
 cask "nepali-patro" do
-  version "1.0.0"
-  sha256 "272abd4f5675022b0a5450e4bdbc9cf6c4e7a0a1a65af401eb60e8bfd73ce10c"
+  version "1.1.0"
+  sha256 "aedbb6be01d75bb7b6fd7d65edf3c845ad78ec9cbe2df38c140ea97852f87577"
 
   url "https://github.com/OfficialBishal/nepali-patro/releases/download/v#{version}/NepaliPatro-#{version}.dmg"
   name "Nepali Patro"
