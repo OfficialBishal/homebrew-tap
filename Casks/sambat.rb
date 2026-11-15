@@ -1,6 +1,6 @@
 cask "sambat" do
-  version "1.1.0"
-  sha256 "aedbb6be01d75bb7b6fd7d65edf3c845ad78ec9cbe2df38c140ea97852f87577"
+  version "2.0.0"
+  sha256 "9415103e6b32d01bdf5f9e2f7a303a96bc72169a1a00a498fc836e5903d46dc3"
 
   url "https://github.com/OfficialBishal/sambat/releases/download/v#{version}/Sambat-#{version}.dmg"
   name "Sambat"
