@@ -1,6 +1,6 @@
 cask "nepali-sambat" do
-  version "2.2.2"
-  sha256 "e6077f047a96865a1b9c059bb71d39237ff70b8a296d4f6882f79bd93e222c47"
+  version "2.3.0"
+  sha256 "7622949e263aa543318727b5ed2e18faec33219814c1ffa2f6d66cbd6673d465"
 
   url "https://github.com/OfficialBishal/nepali-sambat/releases/download/v#{version}/NepaliSambat-#{version}.dmg"
   name "Nepali Sambat"
