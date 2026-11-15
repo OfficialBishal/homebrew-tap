@@ -1,1 +1,4 @@
-{ "nepali-patro": "sambat" }
+{
+  "nepali-patro": "nepali-sambat",
+  "sambat": "nepali-sambat"
+}

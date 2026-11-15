@@ -2,16 +2,16 @@
 
 Homebrew casks by [OfficialBishal](https://github.com/OfficialBishal).
 
-## Sambat
+## Nepali Sambat
 
-A Nepali (Bikram Sambat) calendar for the macOS menu bar that follows **Nepal time**: the date changes at midnight in Nepal, wherever you are. → [sambat](https://github.com/OfficialBishal/sambat)
+A Nepali (Bikram Sambat) calendar for the macOS menu bar that follows **Nepal time**: the date changes at midnight in Nepal, wherever you are. → [nepali-sambat](https://github.com/OfficialBishal/nepali-sambat)
 
 ```sh
-brew install --cask officialbishal/tap/sambat
+brew install --cask officialbishal/tap/nepali-sambat
 ```
 
 Update:
 
 ```sh
-brew upgrade --cask sambat
+brew upgrade --cask nepali-sambat
 ```
